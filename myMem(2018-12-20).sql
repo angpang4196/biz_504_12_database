@@ -132,7 +132,7 @@ CREATE TABLE tbl_product(
     p_name	NVARCHAR2(50)	NOT NULL	
 );
 
-SELECT * FROM tbl_product;
+SELECT count(*) FROM tbl_product;
 
 ALTER TABLE tbl_iolist ADD io_pcode CHAR(5) ;
 DESC tbl_iolist;
