@@ -1,0 +1,8 @@
+-- °ü¸®ÀÚ
+
+CREATE TABLESPACE mycbt DATAFILE 'D:/bizwork/oracle/ordata/mycbt.dbf'
+SIZE 100M AUTOEXTEND ON NEXT 100K;
+
+CREATE USER mycbt IDENTIFIED BY 1234 DEFAULT TABLESPACE mycbt;
+
+GRANT DBA TO mycbt;

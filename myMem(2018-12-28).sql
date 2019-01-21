@@ -101,4 +101,4 @@ VALUES( MY_SEQ.NEXTVAL, 'È«ÀÚ', '010-1013-4238', ROUND(DBMS_RANDOM.VALUE(50,100)
 
 SELECT * FROM tbl_mytable;
 
-SELECT p_name AS ÀÌ¸§, (p_kor + p_eng) AS ÃÑÁ¡ FROM tbl_mytable ;
+SELECT p_name AS ÀÌ¸§, (p_kor + p_eng) AS ÃÑÁ¡ FROM tbl_mytable;

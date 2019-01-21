@@ -1,0 +1,3 @@
+-- 여기는 myBTS 화면
+
+SELECT * FROM DBA_TABLES WHERE OWNER = 'MYBTS';
