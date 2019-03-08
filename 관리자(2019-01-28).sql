@@ -1,0 +1,8 @@
+-- 관리자 화면
+
+CREATE TABLESPACE ertbs DATAFILE 'D:/bizwork/oracle/ordata/ertbs.dbf' 
+SIZE 100M AUTOEXTEND ON NEXT 1M;
+
+CREATE USER erUser IDENTIFIED BY 1234 DEFAULT TABLESPACE ertbs;
+
+GRANT DBA TO erUser;
